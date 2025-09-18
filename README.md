@@ -64,7 +64,7 @@ Digital Warranty & Bill Vault is a personal smart vault that helps you organize,
 
 ```bash
 # 1. Clone and navigate to project
-git clone <your-repository-url>
+git clone https://github.com/TandelPriyanshi/E-Wallet
 cd ewallet
 
 # 2. Install all dependencies (backend + frontend)
@@ -85,7 +85,7 @@ npm run dev
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/TandelPriyanshi/E-Wallet
    cd ewallet
    ```
 
@@ -131,7 +131,8 @@ npm run dev
    DB_DATABASE=ewallet
 
    # JWT Secret (use a strong secret for production)
-   JWT_SECRET=your_super_secure_jwt_secret_key_here_123456789
+   JWT_SECRET=your_super_secure_jwt_secret_key_here
+   JWT_EXPIRES_IN=24h
    
    # Server Configuration
    PORT=3001
